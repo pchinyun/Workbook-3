@@ -13,6 +13,9 @@
     rel="stylesheet"
   </head>
   <body>
+    <div class="backBtn">
+      <a href="./index.html">Back</a>
+    </div>
     <div class="container">
       <h1>Workbook Progress</h1>
 
@@ -105,133 +108,126 @@
       ></iframe>
       <h2>Process</h2>
 
-      <div class="processContainer">
-        <figure>
-          <img src="./IMG/first cube.png" alt="" width="500" />
-          <figcaption>Making a 3D cube in Three.js</figcaption>
-        </figure>
+      <div class="flexSection">
 
-        <figure>
-          <img src="./IMG/low poly scene.png" alt="" width="500" />
-          <figcaption>Modelling a low poly scene</figcaption>
-        </figure>
-
-        <figure>
-          <img src="./IMG/1.jpg" alt="" width="500" />
-          <figcaption>Starting to model in Blender</figcaption>
-        </figure>
-
-        <figure>
-          <img src="./IMG/2.jpg" alt="" width="500" />
-          <figcaption>Setting playing area</figcaption>
-        </figure>
-
-        <figure>
-          <img src="./IMG/3.jpg" alt="" width="500" />
-          <figcaption>
-            Modelling key interactable objects inspired by moments in this
-            subject
-          </figcaption>
-        </figure>
-
-        <figure>
-          <img src="./IMG/4.jpg" alt="" width="500" />
-          <figcaption>Mapping out journey path</figcaption>
-        </figure>
-
-        <figure>
-          <img src="./IMG/5.jpg" alt="" width="500" />
-          <figcaption>Finished scene</figcaption>
-        </figure>
-
-        <figure>
-          <img src="./IMG/6.jpg" alt="" width="500" />
-          <figcaption>Setting Collision boundaries</figcaption>
-        </figure>
-
-        <figure>
-          <img src="./IMG/7.jpg" alt="" width="500" />
-          <figcaption>Collision barriers</figcaption>
-        </figure>
-
-        <figure>
-          <img src="./IMG/code.gif" alt="" width="500" />
-          <figcaption>
-            Initialising the scene & Adding:
-            <i
-              >Camera, Lighting, Rendering, Animation, Physics, Raycasting,
-              Collision Detection and Camera Movement</i
-            >
-          </figcaption>
-        </figure>
-
-        <figure>
-          <img src="./IMG/8.png" alt="" width="500" />
-          <figcaption>
-            Running into problems: Orthographic camera created blind spots
-            <br />
-            <i
-              >You couldn't see the sheep when it went behind the Kusama
-              inspired figure. Week 9 and the Arduino model was blocked as well.
-              Some words were angled towards a different direction</i
-            >
-          </figcaption>
-        </figure>
-
-        <figure>
-          <img src="./IMG/9.jpg" alt="" width="500" />
-          <figcaption>
-            Tweaking model and collision barrier in Blender
-          </figcaption>
-        </figure>
-
-        <figure>
-          <img src="./IMG/10.jpg" alt="" width="500" />
-          <figcaption>
-            Final layout:<i
-              >Angles adjusted based on orthographic camera views, models either
-              resized or remodelled.</i
-            >
-          </figcaption>
-        </figure>
-
-        <figure>
-          <img src="./IMG/11.png" alt="" width="500" />
-          <figcaption>
-            Back to Three.js and finding another problem: The land is not wide
-            enough, canvas background showing.
-          </figcaption>
-        </figure>
-
-        <figure>
-          <img src="./IMG/12.png" alt="" width="500" />
-          <figcaption>
-            Changed canvas background colour to make it look like model is
-            continuous by implementing this code
-          </figcaption>
-          <pre>
-            <code>
-              scene.background = new THREE.Color(0xaed35f);
-            </code>
-          </pre>
-        </figure>
-
-        <figure>
-          <img src="./IMG/13.png" alt="" width="500" />
-          <figcaption>
-            Problems that I could not solve:
-            <i
-              >The exit button does not work if an interactive object is behind
-              the button when clicked. The only way to get out is to click on
-              the same/or another interactive object</i
-            >
-            <p>
-              These are the few problems that I felt was beyond the scope of
-              what I can handle for this submission, so i'll be looking at
-              debugging this in the future instead.
-            </p>
-          </figcaption>
-        </figure>
+        <div class="processContainer">
+          <figure>
+            <img src="./IMG/first cube.png" alt="" width="500" />
+            <figcaption>Making a 3D cube in Three.js</figcaption>
+          </figure>
+  
+          <figure>
+            <img src="./IMG/low poly scene.png" alt="" width="500" />
+            <figcaption>Modelling a low poly scene</figcaption>
+          </figure>
+  
+          <figure>
+            <img src="./IMG/1.jpg" alt="" width="500" />
+            <figcaption>Starting to model in Blender</figcaption>
+          </figure>
+  
+          <figure>
+            <img src="./IMG/2.jpg" alt="" width="500" />
+            <figcaption>Setting playing area</figcaption>
+          </figure>
+  
+          <figure>
+            <img src="./IMG/3.jpg" alt="" width="500" />
+            <figcaption>
+              Modelling key interactable objects inspired by moments in this
+              subject
+            </figcaption>
+          </figure>
+  
+          <figure>
+            <img src="./IMG/4.jpg" alt="" width="500" />
+            <figcaption>Mapping out journey path</figcaption>
+          </figure>
+  
+          <figure>
+            <img src="./IMG/5.jpg" alt="" width="500" />
+            <figcaption>Finished scene</figcaption>
+          </figure>
+  
+          <figure>
+            <img src="./IMG/6.jpg" alt="" width="500" />
+            <figcaption>Setting Collision boundaries</figcaption>
+          </figure>
+  
+          <figure>
+            <img src="./IMG/7.jpg" alt="" width="500" />
+            <figcaption>Collision barriers</figcaption>
+          </figure>
+  
+  
+          <figure>
+            <img src="./IMG/8.png" alt="" width="500" />
+            <figcaption>
+              Running into problems: Orthographic camera created blind spots
+              <br />
+              <i
+                >You couldn't see the sheep when it went behind the Kusama
+                inspired figure. Week 9 and the Arduino model was blocked as well.
+                Some words were angled towards a different direction</i
+              >
+            </figcaption>
+          </figure>
+  
+          <figure>
+            <img src="./IMG/9.jpg" alt="" width="500" />
+            <figcaption>
+              Tweaking model and collision barrier in Blender
+            </figcaption>
+          </figure>
+  
+          <figure>
+            <img src="./IMG/10.jpg" alt="" width="500" />
+            <figcaption>
+              Final layout:<i
+                >Angles adjusted based on orthographic camera views, models either
+                resized or remodelled.</i
+              >
+            </figcaption>
+          </figure>
+  
+          <figure>
+            <img src="./IMG/11.png" alt="" width="500" />
+            <figcaption>
+              Back to Three.js and finding another problem: The land is not wide
+              enough, canvas background showing.
+            </figcaption>
+          </figure>
+  
+          <figure>
+            <img src="./IMG/12.png" alt="" width="500" />
+            <figcaption>
+              Changed canvas background colour to make it look like model is
+              continuous by implementing this code
+            </figcaption>
+            <pre>
+              <code>
+                scene.background = new THREE.Color(0xaed35f);
+              </code>
+            </pre>
+          </figure>
+  
+          <figure>
+            <img src="./IMG/13.png" alt="" width="500" />
+            <figcaption>
+              Problems that I could not solve:
+              <i
+                >The exit button does not work if an interactive object is behind
+                the button when clicked. The only way to get out is to click on
+                the same/or another interactive object</i
+              >
+              <p>
+                These are the few problems that I felt was beyond the scope of
+                what I can handle for this submission, so i'll be looking at
+                debugging this in the future instead.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
       </div>
     </div>
   </body>
